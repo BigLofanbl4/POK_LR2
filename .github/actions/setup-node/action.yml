@@ -1,0 +1,8 @@
+name: Prepare Node.js
+description: Set up the shared Node.js version for the laboratory jobs
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v7
+      with:
+        node-version: '22'

@@ -1,0 +1,11 @@
+{
+  "name": "pok-lab02",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/calculator.js",
+  "files": ["dist/"],
+  "scripts": {
+    "build": "node --check src/calculator.js && node scripts/build.js",
+    "test": "node --test"
+  }
+}
